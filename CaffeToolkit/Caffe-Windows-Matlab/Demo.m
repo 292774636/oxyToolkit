@@ -9,7 +9,7 @@ function [net, maxlabel, feature] = Demo(img)
 %% ===============================================================
 % Step0：启用GPU，并载入Caffe运行路径
 th = tic();
- 
+    clear is_valid_handle; % to clear init_key
     addpath(fullfile(pwd, 'utils'));
     caffe_version      = 'caffe_faster_rcnn'; % caffe_faster_rcnn, caffe_default(暂未编写)
     gpu_id             = auto_select_gpu;
