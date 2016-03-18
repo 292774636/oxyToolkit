@@ -4,7 +4,7 @@
 
 - CaffeToolkit
  - DrawLoss: Load caffe training log and draw the loss and accuracy.
- - Caffe-Windows-Matelab: 改版本仅用于在windows下进行特征提取和分类等简单功能，程序从Faster RCNN中进行抽取，因此只需要安装CUDA6.5，不需要引用其他库文件。
+ - Caffe-Windows-Matelab: 该版本仅用于在windows下进行特征提取和分类等简单功能，程序从Faster RCNN中进行抽取，因此只需要安装CUDA6.5，不需要引用其他库文件。
 
 - Detector
  - Edge_Boxes: Be suited for (fast) RCNN.
